@@ -278,6 +278,8 @@ height: 92vh;
 
     .sec-4 h2{
     text-align: center;
+    color: black;
+    padding-top: 10px;
    
 
 }
@@ -336,7 +338,7 @@ hr{
     font-size: 30px;
  
 }
-            /* end sec-4 */
+            /* *************end sec-4 *********/
 
     .sec-5{
         position: relative;
@@ -344,7 +346,17 @@ hr{
         padding-top: 50px;
         text-align: center;
         width: 100%;
+ 
 
+    }
+
+    .sec-5 h2{
+        text-align: center;
+        color: black;
+        padding-top: 10px;
+        font-size: 30px;
+       
+    
     }
 
     .big-sale{
@@ -356,10 +368,19 @@ hr{
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
+        padding-top:70px;
     }
   
+    .text-5{
+        display: flex;
+        flex-direction: column;
+        
+    }
+ 
+   
     .big-sale img{
         width: 80%;
+        padding-bottom: 100px;
     }
 
     .text-5 a{ 
@@ -386,7 +407,7 @@ hr{
     .btn-5{
     color: white;
     background-color: #863de8;
-    
+    width: 150px;
     height: 40px;
     font-size: 14px;
     font-weight: bold;
@@ -394,10 +415,12 @@ hr{
     border: none;
     outline: none;
     transition: 0.6s ease;
-    position: absolute;
     letter-spacing: .2em;
     padding: 10px 20px;
-    top: 10;
+    position: relative;
+    top: 70px;
+    left: 175px;
+    
 
 }
 
@@ -405,3 +428,67 @@ hr{
     transform:scale(1.1)
 }
  
+.hr-solid{
+    border-top: 1px solid #bbbbbb93;
+    padding-top: 500px;
+}
+
+/* ************************************************END SEC-5 *****************************************/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 300px;
+    padding-left: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.footer-A{
+    width: ;
+    display: flex;
+    justify-content: start;
+   
+}
+
+.footer-A ul{
+    
+    margin-left:80px ;
+    padding: 3px;
+}
+
+
+.footer-A li{
+    list-style: none;
+    padding: 5px;
+}
+
+
+.footer-A li a{
+    text-decoration: none;
+}
+
+
+.footer-B{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 300px
+
+
+}
+
+.right-foot img{
+    width: 200px;
+    position: absolute;
+    left: 70%;
+    left: 5px;
+
+
+    
+}
